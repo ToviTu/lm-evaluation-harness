@@ -4,6 +4,8 @@ from datetime import timedelta
 from pathlib import Path
 from typing import Dict, List, Literal, Optional, Tuple, Union
 
+from llava.model import LlavaLlamaForCausalLM
+
 import torch
 import torch.nn.functional as F
 import transformers
